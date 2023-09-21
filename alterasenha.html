@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alterasenha.css">
+    <!-- Adicione a linha abaixo para usar os ícones FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <title>Perfil do Associado</title>
+</head>
+<body>
+    <div class="container">
+        <div class="blue-section">
+            <div class="profile-pic">
+                <img src="" alt=""> <!-- Substitua pelo URL da foto do associado -->
+            </div>
+            <div class="back-icon">
+                <i class="fas fa-chevron-left"></i> <!-- Ícone Back chevron -->
+            </div>
+            <h2>Perfil do Associado</h2>
+            <div class="input-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" value="Paulo Ricardo da Silva" readonly>
+            </div>
+            <div class="input-group">
+                <label for="matricula">Matrícula:</label>
+                <input type="text" id="matricula" value="92394294" readonly>
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" value="Pauloricardo@ArcoMix@gmail.com" readonly>
+                <p class="description">Para alteração de qualquer dado, entre em contato com a ArcoMix.</p>
+            </div>
+        </div>
+        <div class="white-section">
+            <h2>Alterar Senha</h2>
+            <div class="password-group">
+                <div class="input-group">
+                    <label for="senhaAtual">Senha Atual:</label>
+                    <input type="password" id="senhaAtual" placeholder="Digite sua senha atual">
+                </div>
+                <div class="input-group">
+                    <label for="novaSenha">Nova Senha:</label>
+                    <input type="password" id="novaSenha" placeholder="Nova senha">
+                </div>
+                <div class="input-group">
+                    <label for="repetirSenha">Repita Nova Senha:</label>
+                    <input type="password" id="repetirSenha" placeholder="Repita a nova senha">
+                </div>
+            </div>
+            <button class="larger-button">Proseguir</button>
+        </div>
+    </div>
+</body>
+</html>
