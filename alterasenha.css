@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 919px; /* Largura especificada */
+    height: 487px; /* Altura especificada */
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #8AD3ED;
+}
+
+.blue-section {
+    flex: 2;
+    background-color: #8AD3ED;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    margin-left: 50px; /* Ajuste a margem esquerda para mover para a direita */
+    margin-right: 50px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.profile-pic img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Estilize a parte superior direita para ser mais clara */
+.back-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.white-section {
+    flex: 3;
+    background-color: white;
+    padding: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 20px; /* Ajuste o espaçamento entre os campos de entrada */
+    text-align: center; /* Centraliza o texto nos campos de entrada */
+  
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+}
+
+/* Estilize o botão para torná-lo um pouco maior e arredondado */
+button {
+    background-color: #087BBF;
+    color: white;
+    padding: 16px 36px; /* Aumenta o tamanho do botão */
+    border: none;
+    border-radius: 40px; /* Maior valor para arredondar */
+    cursor: pointer;
+}
+
+/* Estilize a descrição no final da seção de e-mail */
+.description {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333; 
+}
+
+.password-group input[type="password"] {
+    width: 78%;
+    height: 16px;
+    padding: 10px;
+    border: 2px solid #92a8ba;
+    border-radius: 18px;
+    font-size: 16px;
+    margin-bottom: 25px; /* Espaço entre as caixas de senha */
+}
+
