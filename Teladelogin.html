@@ -4,33 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/Teladelogin.css">
+    <link rel="icon" type="image/x-icon"  href="Arcomix.png">
 </head>
 <body>
     <div class="conteudo">
-       <div class="img">
-        <img src="img12.png" alt="Colaborador">
-       </div>
-         <div class="login">
+        <div class="img">
+            <img src="img12.png" alt="Colaborador">
+        </div>
+        <div class="login">
             <h2>Bem Vindo</h2>
-            <label for="matricula">Matricula</label>
-            <input type="number" placeholder="Matricula">
-            <label for="password">Senha</label>
-            <input type="password" placeholder="Senha">
-            
-            <div class="links">
-
-                <label for="myCheckbox">Lembre-se de mim</label>
-                <input type="checkbox" id="myCheckbox" name="myCheckbox" value="checked">
-
-                <a href="#">Esqueceu a Senha</a>
-                
-
+            <div class="input-container">
+                <i class="fas fa-user"></i>
+                <input type="number" placeholder="Matricula">
             </div>
-             <button class="bnt">
-                Entrar
-             </button>
-         </div>
+            <div class="input-container">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Senha">
+            </div>
+            <div class="links">
+                <div class="left-links">
+                    <input type="checkbox" id="myCheckbox" name="myCheckbox" value="checked">
+                    <label for="myCheckbox">Lembre-se de mim</label>
+                </div>
+                <div class="right-links">
+                    <a href="#">Esqueceu a Senha</a>
+                </div>
+            </div>
+            <button class="bnt">Entrar</button>
+        </div>
     </div>
 </body>
 </html>
