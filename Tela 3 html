@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exitscreen.css">
+    <link rel="icon" type="image/x-icon"  href="Arcomix.png">
+    <title>Sair</title>
+</head>
+<body>
+    <article class="container">
+        <header>
+            <h1 id="title">Tem certeza que deseja sair?</h1>
+            <p><img src="boneco.png" class="image"></p>
+            <button class="bnt">
+                Sair
+            </button>
+            <button class="bnt2">
+                Cancelar
+            </button>
+        </header>
+    </article>
+</body>
+</html>
