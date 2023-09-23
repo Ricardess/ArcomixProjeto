@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="alterasenha.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <title>Perfil do Associado</title>
+    <link rel="stylesheet" href="alterasenha.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    
+    <a href="#" id="voltar" class="outside-button">
+        <i class="fas fa-chevron-left"></i> Voltar
+    </a>
+    
     <div class="container">
         <div class="blue-section">
+            <i class='fa-solid fa-arrow-right-from-bracket' id="icone"></i>
             <div class="profile-pic">
                 <img src="" alt="">
             </div>
-            <div class="back-icon">
-                <i class="fas fa-chevron-left"></i>
-            </div>
-            <h2>Perfil do Associado</h2>
+            <h2></h2>
             <div class="input-group">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" value="Paulo Ricardo da Silva" readonly>
@@ -37,18 +39,18 @@
             <div class="password-group">
                 <div class="input-group">
                     <label for="senhaAtual">Senha Atual:</label>
-                    <input type="password" id="senhaAtual" placeholder="Digite sua senha atual">
+                    <input type="password" id="senhaAtual" placeholder="">
                 </div>
                 <div class="input-group">
                     <label for="novaSenha">Nova Senha:</label>
-                    <input type="password" id="novaSenha" placeholder="Nova senha">
+                    <input type="password" id="novaSenha" placeholder="">
                 </div>
                 <div class="input-group">
                     <label for="repetirSenha">Repita Nova Senha:</label>
-                    <input type="password" id="repetirSenha" placeholder="Repita a nova senha">
+                    <input type="password" id="repetirSenha" placeholder="">
                 </div>
             </div>
-            <button class="larger-button">Proseguir</button>
+            <button class="larger-button">Prosseguir</button>
         </div>
     </div>
 </body>
